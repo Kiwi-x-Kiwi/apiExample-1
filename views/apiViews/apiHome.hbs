@@ -1,8 +1,7 @@
-<h2> API Home Page </h2>
+<h2>API Home Page</h2>
 
 <div class="allPokesFromAPI">
   {{#each allThePokemon}}
-      <a class= "pokeFromAllPokesLink" href="/api/poke/{{@index}}">{{this.name}}</a>
-      <img src="">
+  <a class="pokeFromAllPokesLink" href="/api/poke/{{@index}}">{{this.name}}</a>
   {{/each}}
 </div>
